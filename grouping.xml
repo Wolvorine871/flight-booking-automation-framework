@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+	<groups>
+		<run>
+			<!-- <include name="sanity"/> -->
+			<!-- <include name="regression"/> -->
+			<include name="master"/>
+			<!-- <exclude name=""/> -->
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+  	<parameter name="os" value="Windows" />
+	<parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="testBase.BaseClass"/>
+      <class name="loginTest.TC002_ValidSearchFlight"/>
+      <class name="loginTest.TC001_LoginTest"/>
+    </classes>
+  </test> <!-- grouping -->
+</suite> <!-- Suite -->

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-31T18:03:04 IST" name="Suite" finished-at="2025-08-31T18:14:26 IST" duration-ms="681985">
+    <groups>
+      <group name="sanity">
+        <method signature="TC002_ValidSearchFlight.validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" name="validFlightSearch" class="loginTest.TC002_ValidSearchFlight"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC002_ValidSearchFlight.validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" name="validFlightSearch" class="loginTest.TC002_ValidSearchFlight"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-08-31T18:03:04 IST" name="Test" finished-at="2025-08-31T18:14:26 IST" duration-ms="681985">
+      <class name="loginTest.TC002_ValidSearchFlight">
+        <test-method is-config="true" signature="readConfigPropertyFile()[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:03:05 IST" name="readConfigPropertyFile" finished-at="2025-08-31T18:03:05 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfigPropertyFile -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:03:05 IST" name="setUp" finished-at="2025-08-31T18:03:17 IST" duration-ms="12314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:03:18 IST" name="validFlightSearch" data-provider="AirportSearch" finished-at="2025-08-31T18:05:34 IST" duration-ms="135969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Singapore Changi Airport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indira Gandhi International Airport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFlightSearch -->
+        <test-method signature="validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:05:34 IST" name="validFlightSearch" data-provider="AirportSearch" finished-at="2025-08-31T18:07:40 IST" duration-ms="125911" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Berlin Brandenburg Willy Brandt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Istanbul Airport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFlightSearch -->
+        <test-method signature="validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:07:40 IST" name="validFlightSearch" data-provider="AirportSearch" finished-at="2025-08-31T18:09:14 IST" duration-ms="93733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Domodedovo International Airport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Domodedovo International Airport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Duplicate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFlightSearch -->
+        <test-method signature="validFlightSearch(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:09:14 IST" name="validFlightSearch" data-provider="AirportSearch" finished-at="2025-08-31T18:14:25 IST" duration-ms="311316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ninoy Aquino International Airport]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indira Gandhi International Airport]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Not Found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFlightSearch -->
+        <test-method is-config="true" signature="closeFile()[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:14:25 IST" name="closeFile" finished-at="2025-08-31T18:14:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:loginTest.TC002_ValidSearchFlight@2a5c8d3f]" started-at="2025-08-31T18:14:25 IST" name="tearDown" finished-at="2025-08-31T18:14:26 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- loginTest.TC002_ValidSearchFlight -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,27 @@
+01:03:23.826 [main] INFO  loginTest.TC003_FlightBookingValidation - Reading config.properties file located at...C:\SeleniumWorkspace\PHPTravels-Automation-Framework\src\test\resources\config.properties
+01:03:23.834 [main] INFO  loginTest.TC003_FlightBookingValidation - Initializing browser and navigating to site...
+01:03:23.835 [main] INFO  loginTest.TC003_FlightBookingValidation - Launching chrome...
+01:03:25.406 [main] INFO  loginTest.TC003_FlightBookingValidation - Get value for key : appurl =====>>> https://phptravels.net/
+01:03:28.101 [main] INFO  loginTest.TC003_FlightBookingValidation - ************ Starting TC003_FlightBookingValidation ************
+01:03:28.102 [main] INFO  loginTest.TC003_FlightBookingValidation - Click on Customer Dropdown and then click on Login option.
+01:03:28.775 [main] INFO  loginTest.TC003_FlightBookingValidation - Validating Login Page
+01:03:28.794 [main] INFO  loginTest.TC003_FlightBookingValidation - Providing valid login credential
+01:03:28.794 [main] INFO  loginTest.TC003_FlightBookingValidation - Get value for key : validUser =====>>> user@phptravels.com
+01:03:29.385 [main] INFO  loginTest.TC003_FlightBookingValidation - Get value for key : validPass =====>>> demouser
+01:03:34.597 [main] INFO  loginTest.TC003_FlightBookingValidation - Validating Valid Login as ==>>> Demo User
+01:03:52.124 [main] INFO  loginTest.TC003_FlightBookingValidation - Navigated to ===>>> Search for best Flights Page
+01:03:52.124 [main] INFO  loginTest.TC003_FlightBookingValidation - Select flight from airport
+01:06:15.285 [main] INFO  loginTest.TC003_FlightBookingValidation - Select destination to airport
+01:06:38.723 [main] INFO  loginTest.TC003_FlightBookingValidation - Select date of flight
+01:08:22.157 [main] INFO  loginTest.TC003_FlightBookingValidation - Click on search button
+01:08:53.423 [main] INFO  loginTest.TC003_FlightBookingValidation - 61 Flights Found
+01:09:49.630 [main] INFO  loginTest.TC003_FlightBookingValidation - Click on User Profile
+01:09:51.461 [main] INFO  loginTest.TC003_FlightBookingValidation - Click on Log Out
+01:09:53.240 [main] INFO  loginTest.TC003_FlightBookingValidation - Validating Logout
+01:09:55.601 [main] INFO  loginTest.TC003_FlightBookingValidation - ************ Finished TC003_FlightBookingValidation ************
+01:09:55.605 [main] INFO  loginTest.TC003_FlightBookingValidation - ************ Starting TC003_FlightBookingValidation ************
+01:09:55.605 [main] INFO  loginTest.TC003_FlightBookingValidation - Click on Customer Dropdown and then click on Login option.
+01:09:56.862 [main] INFO  loginTest.TC003_FlightBookingValidation - Validating Login Page
+01:09:56.880 [main] INFO  loginTest.TC003_FlightBookingValidation - Providing valid login credential
+01:09:56.881 [main] INFO  loginTest.TC003_FlightBookingValidation - Get value for key : validUser =====>>> user@phptravels.com
+01:09:57.482 [main] INFO  loginTest.TC003_FlightBookingValidation - Get value for key : validPass =====>>> demouser
